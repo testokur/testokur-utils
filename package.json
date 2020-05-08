@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "lint": "tsc --noEmit && eslint --fix \"**\"",
-    "test": "jest --env=jsdom --passWithNoTests --coverage",
+    "test": "jest --passWithNoTests --coverage",
     "semantic-release": "semantic-release"
   },
   "keywords": [
