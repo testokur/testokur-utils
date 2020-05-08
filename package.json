@@ -1,0 +1,36 @@
+{
+  "name": "testokur-utils",
+  "version": "1.0.0",
+  "description": "minimal utility library",
+  "main": "index.js",
+  "repository": "https://github.com/testokur/testokur-utils",
+  "author": "Nazmi Altun <nazmialtun@windowslive.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "tsc --noEmit && eslint --fix \"**\"",
+    "test": "jest --env=jsdom --passWithNoTests --coverage",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "testokur",
+    "utility",
+    "library"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5",
+    "semantic-release": "^17.0.7",
+    "typescript": "^3.8.3"
+  }
+}
