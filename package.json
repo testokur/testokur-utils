@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "tsc --noEmit && eslint --fix \"**\"",
     "test": "jest --passWithNoTests --config ./jest.config.js",
-    "build": "rm -rf dist/ && tsc --outDir dist/",
+    "build": "rm -rf dist/ && tsc",
     "semantic-release": "semantic-release"
   },
   "keywords": [
