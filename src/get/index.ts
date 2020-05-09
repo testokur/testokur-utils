@@ -1,9 +1,9 @@
-type PropertyName = string | number | symbol;
-type Many<T> = T | ReadonlyArray<T>;
-type PropertyPath = Many<PropertyName>;
+import isUndefined from '../isUndefined';
 
-function get(object: any, path: PropertyPath, defaultValue?: any): any {
-  if (!path) {
+type PropertyPath = string | ReadonlyArray<string>;
+
+function get<T>(object: T, path: PropertyPath, defaultValue?: any): any {
+  if (isUndefined(path)) {
     return undefined;
   }
   const pathArray = Array.isArray(path) ? path : (path as string).split(/[,[\].]/g).filter(Boolean);
