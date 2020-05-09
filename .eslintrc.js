@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     'max-len': ['error', { code: 140 }],
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
   },
   overrides: [
     {

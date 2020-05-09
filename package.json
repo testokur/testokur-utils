@@ -10,7 +10,7 @@
   "private": false,
   "scripts": {
     "lint": "tsc --noEmit && eslint --fix \"**\"",
-    "test": "jest --passWithNoTests --coverage",
+    "test": "jest --passWithNoTests --config ./jest.config.js",
     "build": "rm -rf dist/ && tsc --outDir dist/",
     "semantic-release": "semantic-release"
   },
