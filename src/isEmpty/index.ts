@@ -2,7 +2,7 @@ import isNil from '../isNil';
 
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 
-function isEmpty(value?: any): boolean {
+function isEmpty(value: any): boolean {
   if (isNil(value) || Number.isNaN(value)) {
     return true;
   }
