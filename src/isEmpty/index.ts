@@ -1,8 +1,8 @@
-import isNil from '../isNil';
+import { isNil } from '../isNil';
 
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 
-function isEmpty(value: any): boolean {
+export function isEmpty(value: any): boolean {
   if (isNil(value) || Number.isNaN(value)) {
     return true;
   }
@@ -14,4 +14,3 @@ function isEmpty(value: any): boolean {
   }
   return true;
 }
-export default isEmpty;

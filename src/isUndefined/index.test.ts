@@ -1,4 +1,4 @@
-import isUndefined from '.';
+import { isUndefined } from '.';
 
 describe('isUndefined', () => {
   test('returns true when the value is undefined', () => {

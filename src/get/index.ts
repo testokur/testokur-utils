@@ -1,8 +1,8 @@
-import isUndefined from '../isUndefined';
+import { isUndefined } from '../isUndefined';
 
 type PropertyPath = string | ReadonlyArray<string>;
 
-function get<T>(object: T, path: PropertyPath, defaultValue?: any): any {
+export function get<T>(object: T, path: PropertyPath, defaultValue?: any): any {
   if (isUndefined(path)) {
     return undefined;
   }
@@ -10,5 +10,3 @@ function get<T>(object: T, path: PropertyPath, defaultValue?: any): any {
 
   return pathArray.reduce((prevObj, key) => prevObj && prevObj[key], object) || defaultValue;
 }
-
-export default get;

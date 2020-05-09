@@ -1,4 +1,4 @@
-import HttpClient from '.';
+import { HttpClient } from '.';
 
 const serviceUrl = 'http://localhost';
 const testClient = new HttpClient(serviceUrl);

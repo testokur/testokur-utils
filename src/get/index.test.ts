@@ -1,4 +1,4 @@
-import get from '.';
+import { get } from '.';
 
 describe('get', () => {
   const simpleObject = { a: { b: 2 } };

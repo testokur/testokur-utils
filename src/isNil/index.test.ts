@@ -1,4 +1,4 @@
-import isNil from '.';
+import { isNil } from '.';
 
 describe('isNil', () => {
   test('returns true when the value is null or undefined', () => {

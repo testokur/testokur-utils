@@ -1,4 +1,4 @@
-import isUndefined from '../isUndefined';
+import { isUndefined } from '../isUndefined';
 
 interface ConditionalDictionary<T> {
   [key: string]: () => T;

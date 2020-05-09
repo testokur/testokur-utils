@@ -1,4 +1,4 @@
-import isEmpty from '.';
+import { isEmpty } from '.';
 
 describe('isEmpty', () => {
   test('returns true when the value is null or undefined  or NaN or number', () => {

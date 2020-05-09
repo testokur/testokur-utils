@@ -1,7 +1,7 @@
-import isUndefined from '../isUndefined';
+import { isUndefined } from '../isUndefined';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
-class HttpClient {
+export class HttpClient {
   private baseUrl: string;
 
   public constructor(baseUrl: string) {
@@ -41,5 +41,3 @@ class HttpClient {
     return request;
   }
 }
-
-export default HttpClient;
