@@ -1,3 +1,3 @@
-export function isNil<T>(value: T | undefined): boolean {
+export function isNil(value: any): value is null {
   return value == null;
 }
