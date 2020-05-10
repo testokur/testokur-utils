@@ -2,7 +2,7 @@ import { isUndefined } from '../isUndefined';
 
 const defaultLocale = 'tr';
 
-export function formatDateTime(date: Date | undefined, undefinedString: string = '-', locale: string = defaultLocale) {
+export function formatDateTime(date: Date | undefined, undefinedString = '-', locale: string = defaultLocale): string {
   if (isUndefined(date)) {
     return undefinedString;
   }

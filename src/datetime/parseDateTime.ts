@@ -1,4 +1,4 @@
-function isValidDate(d: Date) {
+function isValidDate(d: Date): boolean {
   return d instanceof Date && !isNaN(d.getTime());
 }
 
