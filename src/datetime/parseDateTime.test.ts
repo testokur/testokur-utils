@@ -5,7 +5,7 @@ describe('parseDateTime', () => {
   it('when input is valid in default format then datetime should be parsed', () => {
     const initialDateString = '03.09.2019 19:12:30';
     const parsedDate = parseDateTime(initialDateString);
-    expect(formatDateTime(parsedDate as Date)).toBe(initialDateString);
+    expect(formatDateTime(parsedDate)).toBe(initialDateString);
   });
 
   it('when input is invalid should throw ', () => {
