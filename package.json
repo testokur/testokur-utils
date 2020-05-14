@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "minimal utility library",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "repository": "https://github.com/testokur/testokur-utils",
