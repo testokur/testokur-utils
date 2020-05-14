@@ -2,7 +2,11 @@
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
-    "lib": ["es6", "es2017.object", "dom"],
+    "lib": [
+      "es6",
+      "es2017.object",
+      "dom"
+    ],
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,
@@ -22,6 +26,11 @@
     "removeComments": true,
     "outDir": "dist"
   },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/**/*.test.ts"
+  ]
 }
