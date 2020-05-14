@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "minimal utility library",
   "main": "dist/index.js",
-  "types": "index.d.ts",
+  "types": "dist/index.d.ts",
   "sideEffects": false,
   "repository": "https://github.com/testokur/testokur-utils",
   "author": "Nazmi Altun <nazmialtun@windowslive.com>",
