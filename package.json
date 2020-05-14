@@ -13,7 +13,7 @@
   "scripts": {
     "lint": "tsc --noEmit && eslint --fix \"**\"",
     "build": "tsc --p tsconfig-build.json",
-    "test": "cross-env NODE_ICU_DATA=node_modules/full-icu jest --passWithNoTests --config ./jest.config.js",
+    "test": "cross-env NODE_ICU_DATA=node_modules/full-icu jest",
     "semantic-release": "semantic-release"
   },
   "keywords": [
