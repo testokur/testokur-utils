@@ -6,3 +6,4 @@ export * from './isEmpty';
 export * from './isNil';
 export * from './isUndefined';
 export * from './reduce';
+export * from './isDefined';
